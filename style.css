@@ -1,0 +1,65 @@
+body
+{
+    background-color: rgba(47, 204, 252, 0.24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img1
+{
+    width: 400px;
+}
+.btn1
+{
+    text-decoration: none;
+    background-color: rgb(14, 86, 219);
+    color: red;
+    font-size: 24px;
+    position: absolute;
+    top: 185vh;
+    border-radius: 10%;
+    padding: 5px;
+   
+}
+.btn1:link
+{
+ animation-name: btn1;
+ -webkit-animation-duration: 12s;
+ -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes btn1 
+{
+    0% {background-color: rgb(14, 86, 219);}
+    25% {background-color: green;}
+    50% {background-color: purple;}
+    80% {background-color:red;}
+    100% {background-color: rgb(14, 86, 219);}
+    0% {color: (255, 0, 55)}
+    25% {color:rgb(230, 28, 230);}
+    50% {color: rgb(37, 179, 37);}
+    80% {color: rgb(24, 99, 238);}
+    100% {color: rgb(255, 0, 55)}
+
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+   
+}
+li
+{
+    margin-left: 1vw;
+}
+a:link
+{
+    text-decoration: none;
+}
+li a
+{
+   color: blue;
+   background-color: rgb(234, 0, 255);
+   padding: 10px;
+   border-radius: 100%;
+}
